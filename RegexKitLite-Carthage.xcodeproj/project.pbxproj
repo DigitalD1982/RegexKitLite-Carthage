@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD928111BAD02550036D082 /* RegexKitLite-Carthage.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD928101BAD02550036D082 /* RegexKitLite-Carthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCD928181BAD02550036D082 /* RegexKitLiteCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD9280D1BAD02550036D082 /* RegexKitLiteCarthage.framework */; };
+		FCD9281D1BAD02550036D082 /* RegexKitLite_CarthageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD9281C1BAD02550036D082 /* RegexKitLite_CarthageTests.m */; };
+		FCD928291BAD026D0036D082 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD928271BAD026D0036D082 /* RegexKitLite.h */; };
+		FCD9282A1BAD026D0036D082 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD928281BAD026D0036D082 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FCD9282C1BAD16F00036D082 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD9282B1BAD16F00036D082 /* libicucore.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD928191BAD02550036D082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD928041BAD02550036D082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD9280C1BAD02550036D082;
+			remoteInfo = "RegexKitLite-Carthage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCD9280D1BAD02550036D082 /* RegexKitLiteCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegexKitLiteCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD928101BAD02550036D082 /* RegexKitLite-Carthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RegexKitLite-Carthage.h"; sourceTree = "<group>"; };
+		FCD928121BAD02550036D082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD928171BAD02550036D082 /* RegexKitLite-CarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RegexKitLite-CarthageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD9281C1BAD02550036D082 /* RegexKitLite_CarthageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite_CarthageTests.m; sourceTree = "<group>"; };
+		FCD9281E1BAD02550036D082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD928271BAD026D0036D082 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		FCD928281BAD026D0036D082 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		FCD9282B1BAD16F00036D082 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD928091BAD02550036D082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9282C1BAD16F00036D082 /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD928141BAD02550036D082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD928181BAD02550036D082 /* RegexKitLiteCarthage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD928031BAD02550036D082 = {
+			isa = PBXGroup;
+			children = (
+				FCD9282B1BAD16F00036D082 /* libicucore.tbd */,
+				FCD9280F1BAD02550036D082 /* RegexKitLite-Carthage */,
+				FCD9281B1BAD02550036D082 /* RegexKitLite-CarthageTests */,
+				FCD9280E1BAD02550036D082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD9280E1BAD02550036D082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9280D1BAD02550036D082 /* RegexKitLiteCarthage.framework */,
+				FCD928171BAD02550036D082 /* RegexKitLite-CarthageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD9280F1BAD02550036D082 /* RegexKitLite-Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				FCD928271BAD026D0036D082 /* RegexKitLite.h */,
+				FCD928281BAD026D0036D082 /* RegexKitLite.m */,
+				FCD928101BAD02550036D082 /* RegexKitLite-Carthage.h */,
+				FCD928121BAD02550036D082 /* Info.plist */,
+			);
+			path = "RegexKitLite-Carthage";
+			sourceTree = "<group>";
+		};
+		FCD9281B1BAD02550036D082 /* RegexKitLite-CarthageTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9281C1BAD02550036D082 /* RegexKitLite_CarthageTests.m */,
+				FCD9281E1BAD02550036D082 /* Info.plist */,
+			);
+			path = "RegexKitLite-CarthageTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FCD9280A1BAD02550036D082 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD928111BAD02550036D082 /* RegexKitLite-Carthage.h in Headers */,
+				FCD928291BAD026D0036D082 /* RegexKitLite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FCD9280C1BAD02550036D082 /* RegexKitLite-Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD928211BAD02550036D082 /* Build configuration list for PBXNativeTarget "RegexKitLite-Carthage" */;
+			buildPhases = (
+				FCD928081BAD02550036D082 /* Sources */,
+				FCD928091BAD02550036D082 /* Frameworks */,
+				FCD9280A1BAD02550036D082 /* Headers */,
+				FCD9280B1BAD02550036D082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RegexKitLite-Carthage";
+			productName = "RegexKitLite-Carthage";
+			productReference = FCD9280D1BAD02550036D082 /* RegexKitLiteCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCD928161BAD02550036D082 /* RegexKitLite-CarthageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD928241BAD02550036D082 /* Build configuration list for PBXNativeTarget "RegexKitLite-CarthageTests" */;
+			buildPhases = (
+				FCD928131BAD02550036D082 /* Sources */,
+				FCD928141BAD02550036D082 /* Frameworks */,
+				FCD928151BAD02550036D082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD9281A1BAD02550036D082 /* PBXTargetDependency */,
+			);
+			name = "RegexKitLite-CarthageTests";
+			productName = "RegexKitLite-CarthageTests";
+			productReference = FCD928171BAD02550036D082 /* RegexKitLite-CarthageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD928041BAD02550036D082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RegexKitLite;
+				TargetAttributes = {
+					FCD9280C1BAD02550036D082 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FCD928161BAD02550036D082 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = FCD928071BAD02550036D082 /* Build configuration list for PBXProject "RegexKitLite-Carthage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCD928031BAD02550036D082;
+			productRefGroup = FCD9280E1BAD02550036D082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD9280C1BAD02550036D082 /* RegexKitLite-Carthage */,
+				FCD928161BAD02550036D082 /* RegexKitLite-CarthageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD9280B1BAD02550036D082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD928151BAD02550036D082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD928081BAD02550036D082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9282A1BAD026D0036D082 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD928131BAD02550036D082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9281D1BAD02550036D082 /* RegexKitLite_CarthageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD9281A1BAD02550036D082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD9280C1BAD02550036D082 /* RegexKitLite-Carthage */;
+			targetProxy = FCD928191BAD02550036D082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCD9281F1BAD02550036D082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCD928201BAD02550036D082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCD928221BAD02550036D082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "RegexKitLite-Carthage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sourceforge.RegexKitLiteCarthage;
+				PRODUCT_NAME = RegexKitLiteCarthage;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCD928231BAD02550036D082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "RegexKitLite-Carthage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.sourceforge.RegexKitLiteCarthage;
+				PRODUCT_NAME = RegexKitLiteCarthage;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCD928251BAD02550036D082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RegexKitLite-CarthageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sourceforge.RegexKitLite-CarthageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD928261BAD02550036D082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RegexKitLite-CarthageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sourceforge.RegexKitLite-CarthageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD928071BAD02550036D082 /* Build configuration list for PBXProject "RegexKitLite-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD9281F1BAD02550036D082 /* Debug */,
+				FCD928201BAD02550036D082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD928211BAD02550036D082 /* Build configuration list for PBXNativeTarget "RegexKitLite-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD928221BAD02550036D082 /* Debug */,
+				FCD928231BAD02550036D082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD928241BAD02550036D082 /* Build configuration list for PBXNativeTarget "RegexKitLite-CarthageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD928251BAD02550036D082 /* Debug */,
+				FCD928261BAD02550036D082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD928041BAD02550036D082 /* Project object */;
+}
